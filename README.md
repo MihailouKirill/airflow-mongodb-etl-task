@@ -83,6 +83,37 @@ Unpause the DAGs in the Airflow UI.
 
 
 ### Airflow DAG Execution
+
+**1. Extract & Transform DAG (`pipeline_dag`)**
+
+![Airflow Pipeline DAG Graph](assets/airflow_graph1.png)
+
+**2. Load & Aggregate DAG (`load_into_mongodb`)**
+
+![Airflow Mongo Load DAG Graph](assets/airflow_graph2.png)
+
+**3. Asset-Driven Scheduling**
+
+![Airflow Assets](assets/airflow_asset.png)
+
+### MongoDB Aggregation Results
+
+**1. Database & Collections Structure (`reviews_db`)**
+
+![MongoDB Structure](assets/mongo_structure.png)
+
+**2. Top 5 Most Frequent Comments**
+
+![MongoDB Top 5 frequently occurring comments](assets/top5.png)
+
+**3. Reviews with Content Length < 5 Characters**
+
+![MongoDB All entries where the content field is less than 5 characters long](assets/less_than_5.png)
+
+**4. Average Daily Rating (`ISODate`)**
+
+![MongoDB Average rating for each day](assets/avg_for_each_day.png)
+
 ![Airflow Pipeline DAG Graph](assets/airflow_graph1.png)
 ![Airflow Mongo Load DAG Graph](assets/airflow_graph2.png)
 ![Airflow Assets](assets/airflow_asset.png)
