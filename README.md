@@ -114,16 +114,6 @@ Unpause the DAGs in the Airflow UI.
 
 ![MongoDB Average rating for each day](assets/avg_for_each_day.png)
 
-![Airflow Pipeline DAG Graph](assets/airflow_graph1.png)
-![Airflow Mongo Load DAG Graph](assets/airflow_graph2.png)
-![Airflow Assets](assets/airflow_asset.png)
-
-### MongoDB Aggregation Results
-![MongoDB Structure](assets/mongo_structure.png)
-![MongoDB Top 5 frequently occurring comments](assets/top5.png)
-![MongoDB All entries where the “content” field is less than 5 characters long](assets/less_than_5.png)
-![MongoDB Average rating for each day](assets/avg_for_each_day.png)
-
 
 ### Troubleshooting
 
